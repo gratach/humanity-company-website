@@ -55,37 +55,165 @@
 
                     <aside class="section" aria-labelledby="links-heading">
                         <h2 id="links-heading" style="margin:0 0 8px 0;font-size:16px;color:var(--card)">Join the conversation</h2>
-                        <p class="muted">Join our chat groups and the nextcloud folder to discuss ideas, share feedback, and collaborate on building this project together.</p>
-
                         <div class="links" role="navigation" aria-label="chat group links">
-                            <a id="nextcloudLink" class="btn" href="https://nextcloud.debablo.de/s/Ca2dqkf3NigdM3b" title="Nextcloud server">
-                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.2"/>
-                                    <path d="M7 12a5 5 0 0 1 10 0v1H7v-1z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12 7v2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-                                    <path d="M12 15v2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-                                </svg>
-                                Nextcloud folder
-                            </a>
-                        </div>
-
-                        <div class="links" role="navigation" aria-label="chat group links">
+                            <p class="muted">These chat groups are for posting news regarding the project and for general discussions.</p>
                             <a id="matrixLink" class="btn" href="#" title="Matrix chat group (prefered)">
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                                    <path d="M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9S3 16.97 3 12z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M7.5 9.5l4 2.5 4-2.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <!-- Closed speech bubble -->
+                                <path
+                                    d="M12 3
+                                    a9 9 0 1 0 6.3 15.4
+                                    l2.1 1.9
+                                    -0.8-3
+                                    A9 9 0 0 0 12 3
+                                    z"
+                                    stroke="currentColor"
+                                    stroke-width="1.2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+
+                                <!-- M -->
+                                <path
+                                    d="M7.5 15.5v-7l4 4.5 4-4.5v7"
+                                    stroke="currentColor"
+                                    stroke-width="1.2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
                                 </svg>
+
+
                                 Matrix chat group (prefered)
                             </a>
 
                             <a id="signalLink" class="btn" href="#" title="Signal chat group">
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                                    <rect x="2" y="3" width="20" height="14" rx="3" stroke="currentColor" stroke-width="1.2"/>
-                                    <path d="M8 17v3l3-1 3 1v-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <!-- Closed speech bubble -->
+                                    <path
+                                        d="M12 3
+                                        a9 9 0 1 0 6.3 15.4
+                                        l2.1 1.9
+                                        -0.8-3
+                                        A9 9 0 0 0 12 3
+                                        z"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+
+                                    <!-- S -->
+                                    <path
+                                        d="M14.5 9.5
+                                        c0 -1.1 -1 -2 -2.5 -2
+                                        s-2.5 .9 -2.5 2
+                                        c0 1.1 1 2 2.5 2
+                                        s2.5 .9 2.5 2
+                                        c0 1.1 -1 2 -2.5 2
+                                        s-2.5 -.9 -2.5 -2"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
                                 </svg>
+
                                 Signal chat group
                             </a>
                         </div>
+
+                        <div class="links" role="navigation" aria-label="chat group links">
+                            <p class="muted">Here you can find a shared folder for documents and other resources related to the project.</p>
+                            <a id="nextcloudLink" class="btn" href="#" title="Nextcloud server">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                    <path
+                                        d="M8 17
+                                        h7
+                                        c2.2 0 4 -1.7 4 -3.8
+                                        c0 -2 -1.6 -3.6 -3.6 -3.8
+                                        a4.5 4.5 0 0 0 -8.7 1.3
+                                        C4.9 11 4 12.3 4 13.8
+                                        C4 15.6 5.4 17 7.2 17
+                                        H8
+                                        z"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                                Nextcloud folder
+                            </a>
+                        </div>
+
+                        <div class="links" role="navigation" aria-label="lemmy community link">
+                            <p class="muted">Join our Lemmy community to discuss ideas, proposals, and updates related to the project.</p>
+                            <a id="lemmyLink" class="btn" href="https://lemmy.ml/c/humanitycompany" title="Lemmy community">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                    <!-- Head -->
+                                    <circle
+                                        cx="12" cy="12" r="6.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+
+                                    <!-- Ears (outside the head circle) -->
+                                    <circle
+                                        cx="6" cy="5" r="2.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <circle
+                                        cx="18" cy="5" r="2.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+
+                                    <!-- Eyes -->
+                                    <circle cx="10" cy="12" r="0.6" fill="currentColor" />
+                                    <circle cx="14" cy="12" r="0.6" fill="currentColor" />
+
+                                    <!-- Snout -->
+                                    <circle cx="12" cy="14" r="0.7" fill="currentColor" />
+
+                                    <!-- Whiskers left (radiating from head center) -->
+                                    <path
+                                        d="M6 12.5 L4 11"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                    />
+                                    <path
+                                        d="M6 13.5 L4 14.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                    />
+
+                                    <!-- Whiskers right (radiating from head center) -->
+                                    <path
+                                        d="M18 12.5 L20 11"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                    />
+                                    <path
+                                        d="M18 13.5 L20 14.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.2"
+                                        stroke-linecap="round"
+                                    />
+                                    </svg>
+                                Lemmy community
+                            </a>
 
                         <footer>
                             <small class="muted">
@@ -106,8 +234,12 @@
         const firstpartofsignalurl = "https://signal.group/#CjQKIPtWqgh5qEk5-O83em";
         const secondpartofsignalurl = "SIjumqBxIiAJaUqF7SKD-YNCNPEhBDBcjYfo1nSvqY43FTEOqD";
 
+        const firstpartofnextcloudurl = "https://nextcloud.debabl";
+        const secondpartofnextcloudurl = "o.de/s/Ca2dqkf3NigdM3b";
+
         document.getElementById("matrixLink").href = firstpartofmatrixurl + secondpartofmatrixurl;
         document.getElementById("signalLink").href = firstpartofsignalurl + secondpartofsignalurl;
+        document.getElementById("nextcloudLink").href = firstpartofnextcloudurl + secondpartofnextcloudurl;
         })();
         </script>
     </body>
